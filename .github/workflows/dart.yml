@@ -32,3 +32,6 @@ jobs:
         
       - name: check flutter
         run: flutter --version
+        
+      - name: build apk
+        run: flutter build apk --split-per-abi
